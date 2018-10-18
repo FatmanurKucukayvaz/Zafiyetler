@@ -1,0 +1,36 @@
+body {
+    background-color: #FFFFFF;
+}
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+a{
+    color:#FFFFFF;
+}
+
+.kutu
+{
+	width:1170px;
+	height:nowrap;
+	background-color:#FFFFFF;
+	margin:Auto;
+	margin-top:6px;
+	
+}
+
+.kutu.resim
+{
+	width:400px;
+	height:400px;
+	
+}
+.kutu .somuru
+{
+	
+	width:700px;
+	height:700px;
+	padding-top:200px;	
+	
+}

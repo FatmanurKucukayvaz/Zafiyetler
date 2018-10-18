@@ -1,0 +1,122 @@
+body{
+	font-family:Open Sans,sans-serif;
+	background-color: hsla(0,86%,5%,0.97);
+	opacity:0,7;
+}
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	list-style:none;
+}
+img{
+	float:left;
+}
+h1{
+	text-align:center;
+	margin:20px;
+	font-family:Open Sans,sans-serif;
+	color: white;
+}
+/*h2{
+	text-align:left;
+	font-size:20px;
+	color:white;
+	width:100px;
+	padding:5px;
+	margin:5px;
+	border:2px solid black;
+	background-color:black;
+}*/
+
+
+.duy{
+	float:left;
+	width:500px;
+	height:600px;
+	margin-left:15px;
+	margin-bottom:40px;
+	font-family:Book Old Style;
+	
+}
+
+.duy2{
+	/*float:right;
+	width:450px;
+	height:500px;
+	margin-left:500px;
+	font-family:Book Old Style;
+	margin-left:600px;
+	background-color:red;
+	margin-bottom:400px;*/
+	float:left;
+	width:500px;
+	height:600px;
+	margin-left:40px;
+	margin-top:50px;
+	font-family:Book Old Style;
+	background-color:red;
+}
+
+
+/*.duy  ul li:hover ul {
+	display: block;
+	opacity:1;
+	visibility:visible;
+}*/
+a:hover { 
+    background-color: #607D8B;
+}
+#navigation{
+	width:500px;
+	height:500px;
+}
+#structure{
+	width:200px;
+	height:200px;
+	margin-left:400px;
+	margin-top:50px;
+}
+.genel 
+{
+	width:30px;
+	height:20px;
+	margin-top:800px;
+	margin-left:300px;
+}
+.genel a{
+	display:block; 
+	float:left; 
+	width:auto; 
+	background:url(cancanli_butonlar_normal.gif) 0 0 no-repeat; 
+	text-decoration:none; 
+	font-size:14px; 
+	font-weight:bold
+}
+
+.genel a span{
+	display:block; 
+	float:left; 
+	cursor:pointer; 
+	background:url(cancanli_butonlar_normal.gif) right -36px no-repeat; 
+	height:28px; 
+	padding:0 20px; 
+	line-height:28px; 
+	color:#363636
+}
+.genel a:hover{
+	background:url(cancanli_butonlar_ard.gif) 0 -68px no-repeat;
+}
+
+.genel a:hover span{
+	background:url(cancanli_butonlar_ard.gif) right -100px no-repeat; 
+	color:#706e6e
+}
+.genel a:focus{
+	background:url(cancanli_butonlar_ard.gif) 0 -134px no-repeat;
+}
+
+.genel a:focus span{
+	background:url(cancanli_butonlar_ard.gif) right -164px no-repeat; 
+	color:#363636
+}
